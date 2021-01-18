@@ -26,8 +26,9 @@ function getInfo() {
     },
 
     {
-      type: 'input',
+      type: 'checkbox',
       message: 'What kind of license should your project have?',
+      choices:[MTI],
       name: 'license'
     },
     {
@@ -62,6 +63,7 @@ ${response.description}
 
 ## Description of Page Building 
 - Command to install dependencies: ${response.command}
+
 - Command to run test:  ${response.test}
 
 ## Technologies Used

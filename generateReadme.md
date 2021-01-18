@@ -1,6 +1,6 @@
 
-# Readme Generator
-This is the most basic readme template that includes project's title, description, technologies used, author's GitHub nam and email address. 
+# Readme Generator 
+This project generate the most basic Readme file with project's tittle, description, author's Github name, email. It inclues technologies used and license as well. 
 
 ## Description of Page Building 
 - Command to install dependencies: npm install
@@ -8,7 +8,7 @@ This is the most basic readme template that includes project's title, descriptio
 
 ## Technologies Used
 -JavaScript - gives interacticve elements to web pages
--Java Scripts - contribute to the repo
+-Javascript - contribute to the repo
 
 ## Author
 

@@ -1,5 +1,5 @@
 # readme-generator 
-readme-generator
+Using npm install to create prompt with many inputs, checkbox, and list, for user to answer the questions to generate a  README file. This README file contains basic information such as GitHub user name, email, project titles, description, and some of the technology used. 
 ## Site Picture
 ![Site]()
 
@@ -24,30 +24,59 @@ readme-generator
 
 
 ## Description of Page Building 
-* Install init and install inquire 
+* Install npm init and npm install inquire 
   
 * In index.js file  
-  <ul>
-  <li> 
-  <li> 
-  <li> 
-  <li> 
+  <ul> 
+  <li> Create consts that require node's file system, util, and inquirer dependency
+  <li> Add inquirer promt questions
+  <li> Then apply temperlate literals that contains basic readme structure and get the values from userinput 
+  <li> Write file using Node file system generate a Readme 
+  <li> Make sure to use a call back function to catch err 
   </li>
   </ul>
     
 * In README.md file 
   <ul>
-  <li> Name variables as pointers to html page and to use in functions
-  <li> Add on click functions to generate events 
-  <li> Use ajax funtion to get API querylinks from OpenWeather website 
-  <li> Console log out response to traverse through the objects and find information about the weather
-
+  <li> Create title 
+  <li> Add description 
+  <li> Add author's name and email address
+  <li> Include Technologies used 
+  <li> Provide license 
+  </li>
   </ul>
 
 
 
 ## Code Snippet
+Install npm package 
+ 
+npm install init 
+npm install inquirer
+Required consts 
+``` Javascript
+const inquirer = require("inquirer");
+const fs = require("fs");
+const util = require("util");
+```
 
+Template Literals 
+``` Javascript
+`
+#${response.project}
+${response.description}
+## Description of Page Building 
+- Command to install dependencies: ${response.command}
+- Command to run test:  ${response.test}
+## Technologies Used
+-${response.usesage} - gives interacticve elements to web pages
+-${response.contributing} - contribute to the repo
+## Author
+- [Github](${response.username})
+- [Email](${response.email})
+## License ${response.license}
+`
+```
 
 ## Technologies Used
 - Node- whhat the heck is node

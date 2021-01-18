@@ -28,7 +28,7 @@ function getInfo() {
     {
       type: 'checkbox',
       message: 'What kind of license should your project have?',
-      choices:[MTI],
+      choices:['MTI', 'GNU', 'MPL', 'BSL'],
       name: 'license'
     },
     {

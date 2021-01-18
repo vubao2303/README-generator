@@ -1,7 +1,7 @@
 # readme-generator 
-Using npm install to create prompt with many inputs, checkbox, and list, for user to answer the questions to generate a  README file. This README file contains basic information such as GitHub user name, email, project titles, description, and some of the technology used. 
+Using npm install to create prompt with many inputs, checkbox, and list, for user to answer the questions to generate a  README file. the new generateReadme.md file contain the basic informtion such as project's title, description, techonolgies used, user's Github name and email as well as license. 
 ## Site Picture
-![Site]()
+![Site](readmeImage.png)
 
 # Table of Contents 
 [Tittle](#readme-generator)

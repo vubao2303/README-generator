@@ -57,7 +57,7 @@ function getInfo() {
   ])
     .then((response) => {
       const readme = `
-#${response.project}
+# ${response.project}
 ${response.description}
 
 ## Description of Page Building 

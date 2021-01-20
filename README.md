@@ -1,5 +1,5 @@
 # readme-generator 
-Using npm install to create prompt with many inputs, checkbox, and list, for user to answer the questions to generate a  README file. the new generateReadme.md file contain the basic informtion such as project's title, description, techonolgies used, user's Github name and email as well as license. 
+Using npm install inquirer to create prompts with many inputs, checkbox, and list, for user to answer the questions to generate a  README file. The new generateReadme.md file contain the basic informtion such as project's title, description, table of contents, installation, usage, contributing, tests, questions as well as license. 
 
 ## Site-video 
 [Guide Video](https://drive.google.com/file/d/1LpEwztC0PAx5EHQhnyCy78_ST4bLkoKM/view)
@@ -86,11 +86,6 @@ ${response.description}
   * [Git](https://git-scm.com/)
 - GitHub - hosts repository that can be deployed to GitHub Pages
   * [Github](https://github.com/)
-
-
-## Deployed Link
-
-* [See Live Site](https://vubao2303.github.io/weather-dashboard/)
 
 
 ## Author

@@ -1,8 +1,8 @@
 
-# README-generator   
+# readme generator  
 
 # Description   
-This is the most basic Readme file with title, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.   
+This is the most basic Readme file with Title, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
 
 # Table of Contents 
 [Tittle](#readme-generator)  
@@ -19,14 +19,15 @@ This is the most basic Readme file with title, Description, Table of Contents, I
 
 [Test](#Test)
 
-[Author](#Author)  
+[Technologies Used](#Technologies-Used)
+
+[Questions](#Questions)  
 
 [License](#License)  
  
 
 ## Installation  
 - npm install 
-- ![Inquirer package](https://www.npmjs.com/package/inquirer).
 
 ## Usage
 -JavaScript
@@ -48,10 +49,10 @@ This is the most basic Readme file with title, Description, Table of Contents, I
 
 * ** B TRAM VU ** 
 
-- [Github](vubao2303)
-- [Email](bbbvut@gmail.com)
+- Github: vubao2303  
+- Email: bbbvut@gmai.com
 
 ## License   
 
-- ![License](https://img.shields.io/badge/license-MTI-blue.svg)
+- ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 

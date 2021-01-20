@@ -1,12 +1,13 @@
 # readme-generator 
 Using npm install to create prompt with many inputs, checkbox, and list, for user to answer the questions to generate a  README file. the new generateReadme.md file contain the basic informtion such as project's title, description, techonolgies used, user's Github name and email as well as license. 
-## Site Picture
-![Site](readmeImage.png)
+
+## Site-video 
+[Guide Video](https://drive.google.com/file/d/1LpEwztC0PAx5EHQhnyCy78_ST4bLkoKM/view)
 
 # Table of Contents 
 [Tittle](#readme-generator)
 
-[Site Picutre](#Site-picture)
+[Guide Video](#Guide-Video)
 
 [Table of Contents](#Table-of-Content)
 

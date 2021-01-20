@@ -28,7 +28,7 @@ function getInfo() {
     {
       type: 'checkbox',
       message: 'What kind of license should your project have?',
-      choices:['MTI', 'GNU', 'MPL', 'BSL'],
+      choices:['MIT', 'GNU', 'MPL', 'BSL'],
       name: 'license'
     },
     {
@@ -78,14 +78,15 @@ ${response.description}
 
 [Test](#Test)
 
-[Author](#Author)  
+[Technologies Used](#Technologies-Used)
+
+[Questions](#Questions)  
 
 [License](#License)  
  
 
 ## Installation  
 - ${response.command} 
-- ![Inquirer package](https://www.npmjs.com/package/inquirer).
 
 ## Usage
 -${response.usesage}
@@ -107,8 +108,8 @@ ${response.description}
 
 * ** B TRAM VU ** 
 
-- [Github](${response.username})
-- [Email](${response.email})
+- Github: ${response.username}  
+- Email: ${response.email}
 
 ## License   
 

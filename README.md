@@ -10,7 +10,7 @@ Using npm install to create prompt with many inputs, checkbox, and list, for use
 
 [Table of Contents](#Table-of-Content)
 
-[Description of Page Building ](#Description-of-Page-Building)
+[Description of Page Building](#Description-of-Page-Building)
 
 [Code Snippet](#Code-Snippet)
 
@@ -79,8 +79,8 @@ ${response.description}
 ```
 
 ## Technologies Used
-- Node- whhat the heck is node
-  * []()
+- Node - an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.
+  * [Node.js](https://nodejs.org/dist/latest-v14.x/docs/api/)
 - Git - version control system to track changes to source code
   * [Git](https://git-scm.com/)
 - GitHub - hosts repository that can be deployed to GitHub Pages

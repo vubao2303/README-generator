@@ -58,26 +58,62 @@ function getInfo() {
   ])
     .then((response) => {
       const readme = `
-# ${response.project}
-${response.description}
+# ${response.project}  
 
-## Description of Page Building 
-- Command to install dependencies: ${response.command}
+# Description   
+${response.description}  
+
+# Table of Contents 
+[Tittle](#readme-generator)  
+
+[Desprition](#Desprition)
+
+[Table of Contents](#Table-of-Content)  
+
+[Installation](#Installation)  
+
+[Usage](#Usage)  
+
+[Contributing](#Contributing)  
+
+[Test](#Test)
+
+[Author](#Author)  
+
+[License](#License)  
+ 
+
+## Installation  
+- ${response.command} 
+- ![Inquirer package](https://www.npmjs.com/package/inquirer).
+
+## Usage
+-${response.usesage}
+
+## Contributing  
+-${response.contributing} - contribute to the repo  
+
+## Test 
 
 - Command to run test:  ${response.test}
 
 ## Technologies Used
--${response.usesage} - gives interacticve elements to web pages
--${response.contributing} - contribute to the repo
+ - ${response.command}   
+ - ${response.usesage}   
+ - ${response.contributing}  
 
-## Author
+
+## Questions
 
 * ** B TRAM VU ** 
 
 - [Github](${response.username})
 - [Email](${response.email})
 
-## License ${response.license}
+## License   
+
+- ![License](https://img.shields.io/badge/license-${response.license}-blue.svg)
+
 `;
 
       fs.writeFile('generateReadme.md', readme, (err) =>

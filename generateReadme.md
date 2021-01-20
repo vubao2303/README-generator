@@ -1,21 +1,57 @@
 
-# readme generator 
-\This is the most basic readme structure, using npm install, inquirer promts to create questions, then take the users' inputs to add in file's content
+# README-generator   
 
-## Description of Page Building 
-- Command to install dependencies: npm install
+# Description   
+This is the most basic Readme file with title, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.   
+
+# Table of Contents 
+[Tittle](#readme-generator)  
+
+[Desprition](#Desprition)
+
+[Table of Contents](#Table-of-Content)  
+
+[Installation](#Installation)  
+
+[Usage](#Usage)  
+
+[Contributing](#Contributing)  
+
+[Test](#Test)
+
+[Author](#Author)  
+
+[License](#License)  
+ 
+
+## Installation  
+- npm install 
+- ![Inquirer package](https://www.npmjs.com/package/inquirer).
+
+## Usage
+-JavaScript
+
+## Contributing  
+-JavaScript - contribute to the repo  
+
+## Test 
 
 - Command to run test:  NA
 
 ## Technologies Used
--JavaScript - gives interacticve elements to web pages
--Javascript  - contribute to the repo
+ - npm install   
+ - JavaScript   
+ - JavaScript  
 
-## Author
+
+## Questions
 
 * ** B TRAM VU ** 
 
 - [Github](vubao2303)
-- [Email](bbbvut@gmail.com )
+- [Email](bbbvut@gmail.com)
 
-## License 
+## License   
+
+- ![License](https://img.shields.io/badge/license-MTI-blue.svg)
+
